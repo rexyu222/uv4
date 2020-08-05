@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
-
+app.use(express.static(path.join(__dirname, 'image')));
 app.get('/', (req, res) => {
-    res.send("rex homepage 2");
+    res.send("rex homepage 3");
 });
 
 const port = process.env.PORT || 3000;
