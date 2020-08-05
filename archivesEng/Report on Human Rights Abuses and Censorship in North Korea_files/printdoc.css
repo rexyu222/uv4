@@ -1,0 +1,24 @@
+#footer-links {
+	display: none;
+}
+#sitemap-links {
+	display: none;
+}
+#share-icons {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+#left-content {
+	width: 960px;
+}
+#middlecolumn {
+	width: 870px !important;
+}
+#tier3-landing-content-wide {
+	width: 920px;
+}
+#backtotoparrow {
+	display: none !important;
+}

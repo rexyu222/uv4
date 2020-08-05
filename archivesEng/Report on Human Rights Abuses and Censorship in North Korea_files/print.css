@@ -1,0 +1,123 @@
+#masthead {
+	display: none;
+}
+#tier3-local-nav {
+	display: none;
+}
+#banner4print {
+	margin-bottom: 15px; margin-left: 18px; display: block;
+}
+#breadcrumb-trail {
+	display: none;
+}
+#page-footer {
+	display: none;
+}
+#user-nav {
+	display: none;
+}
+#global-nav {
+	display: none;
+}
+#dos-logo-assets {
+	display: none;
+}
+#dos-wrap {
+	display: none;
+}
+#footer-links {
+	display: none;
+}
+#sitemap-links {
+	display: none;
+}
+#content-output {
+	background-image: none;
+}
+#dos-wrapper {
+	background-image: none;
+}
+#masthead-map {
+	display: none;
+}
+#tier3-local-nav {
+	display: none;
+}
+#tier3-landing-content {
+	width: 960px; margin-left: 20px;
+}
+html {
+	background-image: none; background-color: rgb(255, 255, 255);
+}
+body {
+	background-image: none; background-color: rgb(255, 255, 255);
+}
+#landing-local-nav {
+	display: none;
+}
+#highlights {
+	display: none;
+}
+#body-row02-col01 {
+	display: none;
+}
+#body-row02 {
+	text-align: left;
+}
+body {
+	margin-bottom: 10px;
+}
+#tier3-landing-content-wide {
+	overflow: visible;
+}
+#tier3-landing-content {
+	overflow: visible;
+}
+#sidebar {
+	display: none;
+}
+#sidebar-top {
+	display: none;
+}
+#country-profiles {
+	display: none;
+}
+#where-is-the-secretary {
+	display: none;
+}
+#google-map-overlay {
+	display: none;
+}
+#stayconnect {
+	display: none;
+}
+#from-the-dipnote-blog {
+	padding-top: 0px; margin-top: 0px; display: block;
+}
+.noprint {
+	display: none;
+}
+.feature2 {
+	padding: 0px 0px 15px;
+}
+.sitemap-column {
+	width: 150px;
+}
+.hidden {
+	display: block;
+}
+h2.tier3-headline {
+	line-height: 32px;
+}
+#top-story-pagination {
+	display: none;
+}
+p a#subscribe-to-updates span {
+	color: rgb(24, 90, 156); text-decoration: none; display: block;
+}
+h2.features-headline {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#feature-nav {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}

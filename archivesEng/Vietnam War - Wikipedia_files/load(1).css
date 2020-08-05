@@ -1,0 +1,12 @@
+div#editpage-specialchars {
+	padding: 0.5em 1em; border: 1px solid rgb(192, 192, 192); border-image: none; display: block;
+}
+#editpage-specialchars a {
+	padding: 1px 4px; border: 1px solid rgb(221, 221, 221); border-image: none; background-color: rgb(249, 249, 249);
+}
+textarea#wpTextbox1 + #editpage-specialchars {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.wikiEditor-ui-clear + #editpage-specialchars {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}

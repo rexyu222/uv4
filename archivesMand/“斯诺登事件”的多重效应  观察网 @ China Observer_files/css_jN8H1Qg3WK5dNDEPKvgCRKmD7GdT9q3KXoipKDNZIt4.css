@@ -1,0 +1,153 @@
+.field-type-image {
+	width: auto;
+}
+.field-type-image img {
+	display: block;
+}
+.field-type-image figure {
+	overflow: hidden;
+}
+.field-type-image figure {
+	max-width: 100%;
+}
+.field-type-image figcaption {
+	max-width: 100%;
+}
+.field-type-image figcaption {
+	text-align: left;
+}
+.field-type-image .field-label {
+	margin-bottom: 5px;
+}
+.lt-ie8 .field-type-image img {
+	max-width: none !important;
+}
+.lt-ie8 .field-type-image figure {
+	max-width: none !important;
+}
+.lt-ie8 .field-type-image figcaption {
+	max-width: none !important;
+}
+.image-left .field-label-above.field-type-image .field-label {
+	clear: left; float: left;
+}
+.image-left .field-type-image figure {
+	clear: left; float: left;
+}
+.ia-l .field-label-above.field-type-image .field-label {
+	clear: left; float: left;
+}
+.iat-l .field-label-above.field-type-image .field-label {
+	clear: left; float: left;
+}
+.ia-l .field-type-image figure {
+	clear: left; float: left;
+}
+.iat-l .field-type-image figure {
+	clear: left; float: left;
+}
+.image-right .field-label-above.field-type-image .field-label {
+	clear: right; float: right;
+}
+.image-right .field-type-image figure {
+	clear: right; float: right;
+}
+.ia-r .field-label-above.field-type-image .field-label {
+	clear: right; float: right;
+}
+.iat-r .field-label-above.field-type-image .field-label {
+	clear: right; float: right;
+}
+.ia-r .field-type-image figure {
+	clear: right; float: right;
+}
+.iat-r .field-type-image figure {
+	clear: right; float: right;
+}
+.image-center .field-type-image figcaption {
+	text-align: center; margin-right: auto; margin-left: auto;
+}
+.image-center .field-type-image img {
+	text-align: center; margin-right: auto; margin-left: auto;
+}
+.ia-c .field-type-image figcaption {
+	text-align: center; margin-right: auto; margin-left: auto;
+}
+.iat-c .field-type-image figcaption {
+	text-align: center; margin-right: auto; margin-left: auto;
+}
+.ia-c .field-type-image img {
+	text-align: center; margin-right: auto; margin-left: auto;
+}
+.iat-c .field-type-image img {
+	text-align: center; margin-right: auto; margin-left: auto;
+}
+.float-blocks-left .block {
+	float: left;
+}
+.float-blocks-right .block {
+	float: right;
+}
+.float-blocks-2 .block {
+	width: 50%;
+}
+.float-blocks-3 .block {
+	width: 33.33%;
+}
+.float-blocks-4 .block {
+	width: 25%;
+}
+.float-blocks-5 .block {
+	width: 20%;
+}
+.float-blocks-6 .block {
+	width: 16.66%;
+}
+.float-blocks-7 .block {
+	width: 14.28%;
+}
+.float-blocks-8 .block {
+	width: 12.5%;
+}
+.float-blocks-9 .block {
+	width: 11.11%;
+}
+.float-blocks-10 .block {
+	width: 10%;
+}
+.float-blocks-11 .block {
+	width: 9.09%;
+}
+.float-blocks-12 .block {
+	width: 8.33%;
+}
+.container {
+	margin: 0px auto;
+}
+.content-inner {
+	min-height: 1px;
+}
+.lt-ie7 .content-inner {
+	height: 1px;
+}
+#content-column {
+	width: 100%;
+}
+.content-column {
+	width: 100%;
+}
+.clearfix::after {
+	clear: both; display: table; content: "";
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+.one-column .region {
+	width: 100%; clear: both; float: none; display: block;
+}
+div.at-panel .region-conditional-stack {
+	width: 100%; clear: both; float: none; display: block;
+}
+.lt-ie8 .at-panel {
+	overflow: hidden;
+}

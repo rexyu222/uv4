@@ -1,0 +1,67 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0062)https://widgets.wp.com/likes/master.html -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<SCRIPT id="admin-bar-likes" type="text/html">
+	<div id="wpadminbar" <% if ( isRtl ) { %> class="rtl" <% } %> >
+		<div class="quicklinks">
+			<ul><li id="wp-admin-bar-wpl-like">
+				<a class="ab-item like" href="#"><%= label %></a>
+			</li></ul>
+		</div>
+	</div>
+</SCRIPT>
+ 
+<SCRIPT id="post-likes" type="text/html">
+	<div class="sd-content wpl-likebox">
+		<% if ( canReblog && canUserReblog ) { %>
+		<div class="wpl-button reblog">
+			<a href="#" title='<%- reblog_feedback_no_html %>' class='<%- reblog_css_state %> sd-button' rel='nofollow'>
+				<span><%= reblog_label %></span>
+			</a>
+		</div>
+		<% } %>
+
+		<div class="wpl-button <%- css_state %>">
+			<a href="#" title='<%- feedback_no_html %>' class='<%- css_state %> sd-button' rel='nofollow'>
+				<span><%= label %></span>
+			</a>
+		</div>
+
+		<% if ( hasLikes ) { %>
+		<ul class="wpl-avatars sd-like-gravatars">
+			<% likers.forEach( function( item, key ) { %>
+				<li class='<%- item.css_class %>'><a href="<%= item.profile_URL %>" title="<%- item.name %>" class="wpl-liker" rel="nofollow" target="_parent">
+					<img src='<%= item.avatar_URL %>' class='avatar avatar-30' alt='<%- item.name %>' width='30' height='30' />
+				</a></li>
+			<% }); %>
+		</ul>
+		<% } %>
+		<div class="wpl-count sd-like-count"><%= feedback %></div>
+	</div>
+</SCRIPT>
+ 
+<SCRIPT id="slim-likes" type="text/html">
+	<div class="sd-content wpl-likebox wpl-slim-likebox">
+		<div class="wpl-button <%- css_state %>">
+			<a href="#" title='<%- feedback_no_html %>' class='<%- css_state %> sd-button' rel='nofollow'>
+				<span><%= label %></span>
+			</a>
+		</div>
+	</div>
+</SCRIPT>
+ 
+<SCRIPT id="comment-likes" type="text/html">
+	<div class="wpl-likebox">
+		<div id="comment-like" class="comment-likes <%- css_state %>">
+			<a href="#" class="comment-like-link" rel="nofollow"><%= label %></a>
+		</div>
+	</div>
+</SCRIPT>
+ 
+<SCRIPT src="master_files/_static.js" type="text/javascript"></SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY></BODY></HTML>

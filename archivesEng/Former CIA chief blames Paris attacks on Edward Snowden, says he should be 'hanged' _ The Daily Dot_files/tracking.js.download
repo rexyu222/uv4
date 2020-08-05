@@ -1,0 +1,107 @@
+(function (window) {
+    var publicHash = "GnqctHWtm8v8IWi";
+    var apiEndpoint = "https://pf.entertainow.com/";
+    var active = null;
+
+    var cookieID = 0;
+
+    var setup = function (info) {
+        if (!info.active) {
+            return;
+        }
+
+        cookieID = info.cookieID;
+
+        trackEvent(1);
+
+        window.addEventListener("onclick", function () {
+            trackEvent(4);
+        })
+
+        setTimeout(function () {
+            trackEvent(5);
+        }, 5000);
+
+        setTimeout(function () {
+            trackEvent(6);
+        }, 10000);
+
+        setTimeout(function () {
+            trackEvent(7);
+        }, 15000);
+
+
+        setTimeout(function () {
+            trackEvent(8);
+        }, 20000);
+    }
+
+    function firePixel() {
+        trackEvent(3);
+    }
+
+
+    var mX = 0
+    var mY = 0;
+
+    document.addEventListener('mousemove', onMouseUpdate, false);
+    document.addEventListener('mouseenter', onMouseUpdate, false);
+
+    function onMouseUpdate(e) {
+        mX = e.pageX;
+        mY = e.pageY;
+    }
+
+
+    function trackEvent(eventID) {
+        if (active !== null && active === false) {
+            return;
+        }
+        var eventURL = apiEndpoint + "ncrave/ebs/tracking/event";
+        var params = "ph=" + publicHash + "&ts=" + Math.round(Date.now() / 1000)
+            + "&di=" + document.location.hostname + "&e=" + eventID
+            + "&bih=" + window.innerHeight + "&biw=" + window.innerWidth
+            + "&boh=" + window.outerHeight + "&bow=" + window.outerWidth
+            + "&bpx=" + window.screenX + "&bpy=" + window.screenY
+            + "&sh=" + window.screen.height
+            + "&sw=" + window.screen.width + "&cid=" + cookieID + "&mx=" + mX
+            + "&my=" + mY;
+
+        var xhr = createCORSRequest("POST", eventURL);
+        if (!xhr) {
+            return;
+        }
+
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhr.send(params);
+    }
+
+
+    function createCORSRequest(method, url) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url, true);
+        xhr.withCredentials = true;
+        return xhr;
+    }
+
+    var infoURL = apiEndpoint + "ncrave/ebs/tracking/info";
+    var params = "di=" + document.location.hostname + "&ph=" + publicHash + "&ts=" + Math.round(Date.now() / 1000);
+    var xhr = createCORSRequest("POST", infoURL);
+    if (!xhr) {
+        return;
+    }
+
+    xhr.onreadystatechange = function () {
+        if (this.readyState === 4) {
+            setup(JSON.parse(this.responseText));
+        }
+    }
+
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    xhr.send(params);
+
+    window.ebs = {
+        firePixel: firePixel,
+    }
+
+})(window);

@@ -1,0 +1,240 @@
+#tier3-content::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#tier3-content {
+	margin: 0px; padding: 0px; width: 690px;
+}
+#masthead-map {
+	background: url("/images/2010/bkg-masthead-map.jpg") no-repeat 0px 0px; margin: 0px; padding: 0px; width: 690px; height: 119px;
+}
+#breadcrumb-trail {
+	background: url("/images/2010/bkg-breadcrumb-trail.gif") repeat-x 0px 100% rgb(255, 255, 255); margin: 0px; padding: 12px 38px 8px; clear: left; border-top-color: rgb(0, 51, 102); border-top-width: 4px; border-top-style: solid;
+}
+p#breadcrumbs {
+	color: rgb(77, 77, 77); line-height: 17px; font-size: 11px; display: inline;
+}
+p#breadcrumbs a {
+	margin: 0px; padding: 0px; color: rgb(24, 90, 156); line-height: 16px; font-size: 11px; font-weight: normal; text-decoration: none; display: inline;
+}
+p#breadcrumbs a:hover {
+	text-decoration: underline;
+}
+p#breadcrumbs a.selected {
+	color: rgb(77, 77, 77);
+}
+#tier3-local-nav {
+	margin: 18px 0px 0px 38px; padding: 0px; float: left;
+}
+ul.level01#local-nav {
+	margin: 8px; width: 140px;
+}
+ul.level01#local-nav li {
+	background: url("/images/2010/red-arrow.png") no-repeat 0px 4px; margin: 10px 0px 0px; padding: 0px 0px 0px 12px;
+}
+ul.level01#local-nav li.selected {
+	background: url("/images/2010/grey-arrow.png") no-repeat 0px 4px; margin: 10px 0px 0px; padding: 0px 0px 0px 12px;
+}
+ul.level01#local-nav li a {
+	color: rgb(24, 90, 156); line-height: 14px; font-size: 11px; font-weight: bold; text-decoration: none; display: block;
+}
+ul.level01#local-nav li a:hover {
+	text-decoration: underline;
+}
+ul#local-nav li ul.level02 {
+	width: 148px;
+}
+ul#local-nav li ul.level02 li {
+	background: none; margin: 10px 0px 0px; padding: 0px;
+}
+ul#local-nav li ul.level02 li a {
+	color: rgb(24, 90, 156); line-height: 14px; font-size: 11px; font-weight: normal; text-decoration: none; display: block;
+}
+ul#local-nav li ul.level02 li a.selected {
+	color: rgb(102, 102, 102);
+}
+ul#local-nav li ul.level02 li a:hover {
+	text-decoration: underline;
+}
+#tier3-landing-content {
+	margin: 10px 0px; padding: 0px; width: 490px; color: rgb(37, 37, 37); line-height: 20px; overflow: hidden; font-size: 12px; float: left;
+}
+#tier3-landing-content-wide {
+	margin: 10px 0px; padding: 0px; width: 650px; color: rgb(37, 37, 37); line-height: 20px; overflow: hidden; font-size: 12px; float: left;
+}
+#tier3-landing-content-wide ol {
+	padding-left: 2.5em; margin-left: 0px;
+}
+#tier3-landing-content-wide ul {
+	padding-left: 2.5em; margin-left: 0px;
+}
+#tier3-landing-content ol {
+	padding-left: 2.5em; margin-left: 0px;
+}
+#tier3-landing-content ul {
+	padding-left: 2.5em; margin-left: 0px;
+}
+#tier3-landing-content ul {
+	margin-bottom: 10px;
+}
+#tier3-landing-content-wide ul {
+	margin-bottom: 10px;
+}
+h2.tier3-headline {
+	margin: 0px 0px 12px; padding: 0px; color: rgb(162, 37, 56); letter-spacing: -0.05em; font-size: 18px; font-weight: 400;
+}
+#tier3-landing-content h2.tier3-headline {
+	width: 350px;
+}
+#tier3-landing-content-wide h2.tier3-headline {
+	width: 500px;
+}
+#tier3-landing-content p {
+	margin: 0px 0px 10px; padding: 0px; color: rgb(37, 37, 37); line-height: 20px; font-size: 12px;
+}
+#tier3-landing-content p a {
+	color: rgb(38, 100, 162); text-decoration: none;
+}
+#tier3-landing-content-wide p a {
+	color: rgb(38, 100, 162); text-decoration: none;
+}
+#tier3-landing-content p a:hover {
+	text-decoration: underline;
+}
+#tier3-landing-content-wide p a:hover {
+	text-decoration: underline;
+}
+#tier3-landing-content h3 {
+	margin: 0px 0px 5px; padding: 4px 0px 0px; color: rgb(76, 76, 76); line-height: 26px; font-size: 16px; font-weight: bold;
+}
+#tier3-landing-content h4 {
+	margin: 0px 0px 5px; padding: 4px 0px 0px; color: rgb(76, 76, 76); line-height: 26px; font-size: 14px; font-weight: bold;
+}
+#highlights-tier3-short {
+	background: url("/images/2013/bkg-highlights-short02.png") repeat-x 0px 0px rgb(222, 222, 222); overflow: hidden;
+}
+#highlights-tier3-long {
+	background: url("/images/2010/bkg-highlights-tall.png") repeat-x 0px 0px rgb(234, 230, 205); margin: 30px 0px 12px; padding: 0px 15px 20px 20px;
+}
+#highlights-tier3-short div {
+	overflow: hidden;
+}
+h3.highlights-headline {
+	background: url("/images/2010/hdr-highlights.png") no-repeat 0px 0px; margin: 10px; width: 67px; height: 16px;
+}
+h3.highlights-headline span {
+	display: none;
+}
+h3.learnmore-headline {
+	background: url("/images/2010/hdr-learn-more.png") no-repeat 0px 0px; margin: 10px; width: 77px; height: 12px;
+}
+h3.learnmore-headline span {
+	display: none;
+}
+#highlights-tier3-short dl {
+	padding: 0px 0px 12px;
+}
+#highlights-tier3-long dl {
+	padding: 0px 0px 12px;
+}
+#highlights-tier3-short dl dt strong a {
+	color: rgb(24, 90, 156); line-height: 17px; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+#highlights-tier3-long dl dt strong a {
+	color: rgb(24, 90, 156); line-height: 17px; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+#highlights-tier3-short dl dt strong a:hover {
+	text-decoration: underline;
+}
+#highlights-tier3-long dl dt strong a:hover {
+	text-decoration: underline;
+}
+#highlights-tier3-short dl dd.caps {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-transform: uppercase; line-height: 17px; letter-spacing: 0.6px; font-size: 10px; font-weight: normal;
+}
+#highlights-tier3-long dl dd.caps {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-transform: uppercase; line-height: 17px; letter-spacing: 0.6px; font-size: 10px; font-weight: normal;
+}
+#highlights-tier3-short dl dd {
+	margin: 0px; padding: 2px 0px 0px; color: rgb(29, 37, 47); line-height: 17px; font-size: 12px; font-weight: normal;
+}
+#highlights-tier3-long dl dd {
+	margin: 0px; padding: 2px 0px 0px; color: rgb(29, 37, 47); line-height: 17px; font-size: 12px; font-weight: normal;
+}
+#highlights-tier3-short {
+	color: rgb(29, 37, 47); line-height: 17px; font-size: 12px; font-weight: normal;
+}
+#highlights-tier3-long {
+	color: rgb(29, 37, 47); line-height: 17px; font-size: 12px; font-weight: normal;
+}
+#learnmore-tier2-short {
+	color: rgb(29, 37, 47); line-height: 17px; font-size: 12px; font-weight: normal;
+}
+#learnmore-tier2-long {
+	color: rgb(29, 37, 47); line-height: 17px; font-size: 12px; font-weight: normal;
+}
+#highlights-tier3-short a {
+	font-size: 11px;
+}
+#highlights-tier3-long a {
+	font-size: 11px;
+}
+#learnmore-tier2-short a {
+	font-size: 11px;
+}
+#learnmore-tier2-long a {
+	font-size: 11px;
+}
+#stay-connected {
+	background: url("/images/2013/bkg-stay-connected.gif") repeat-x 0px 0px; padding: 15px 0px;
+}
+#social-networking-icons {
+	margin-bottom: 0px;
+}
+p a#subscribe-to-updates {
+	margin-top: 12px;
+}
+#highlights-tier3-short img {
+	padding: 5px;
+}
+#tier3-landing-content img {
+	padding: 5px;
+}
+#highlights-tier3-short table img {
+	padding-top: 5px; padding-bottom: 5px;
+}
+#tier3-landing-content table img {
+	padding-top: 5px; padding-bottom: 5px;
+}
+h1 {
+	color: rgb(156, 0, 0); text-transform: uppercase; font-family: verdana; font-size: 10pt; font-weight: bold;
+}
+h2 {
+	color: rgb(0, 51, 102); font-family: verdana; font-size: 10pt; font-weight: bold;
+}
+h3 {
+	color: black; text-transform: uppercase; font-family: verdana; font-size: 9pt; font-weight: bold;
+}
+h4 {
+	color: black; font-family: verdana; font-size: 9pt; font-weight: bold;
+}
+h5 {
+	color: black; text-transform: uppercase; font-family: verdana; font-size: 8pt; font-weight: bold;
+}
+h6 {
+	color: black; font-family: verdana; font-size: 8pt; font-style: italic; font-weight: normal;
+}
+.whatsnew-spacing {
+	height: 10px;
+}
+#body-col02-row02 ul {
+	
+}
+a.group_label {
+	font-weight: normal !important;
+}
+span.doc_description a {
+	font-weight: normal;
+}
+#share-icons-cat img {
+	padding: 0px;
+}

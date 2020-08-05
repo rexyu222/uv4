@@ -1,0 +1,51 @@
+#openid_form {
+	width: 580px;
+}
+#openid_form legend {
+	font-weight: bold;
+}
+#openid_choice {
+	display: none;
+}
+#openid_input_area {
+	padding-top: 1px; padding-left: 10px; clear: both;
+}
+#openid_btns {
+	clear: both;
+}
+#openid_btns br {
+	clear: both;
+}
+#openid_highlight {
+	padding: 3px; float: left; background-color: rgb(255, 252, 201);
+}
+.openid_large_btn {
+	margin: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 100px; height: 60px; float: left; _width: 102px; _height: 62px;
+}
+.openid_small_btn {
+	margin: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 24px; height: 24px; float: left; _width: 26px; _height: 26px;
+}
+a.openid_large_btn:focus {
+	
+}
+a.openid_large_btn:focus {
+	-moz-outline-style: none;
+}
+.openid_selected {
+	border: 4px solid rgb(221, 221, 221); border-image: none;
+}
+#login_dialog {
+	font-size: 14px;
+}
+#login_dialog fieldset {
+	padding: 7px; border: 1px solid rgb(102, 102, 102); border-image: none;
+}
+#fail_message {
+	color: rgb(255, 0, 0); font-weight: bold; margin-bottom: 7px;
+}
+.smalltext {
+	font-size: 9px;
+}
+.smalltext a {
+	font-size: 9px;
+}

@@ -1,0 +1,144 @@
+#bgnotes_index p {
+	color: rgb(65, 65, 91); font-family: Lucida Grande; font-size: 14px; font-weight: bold; margin-bottom: 5px;
+}
+ul#backgroundnotes li a {
+	color: rgb(38, 100, 162); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+ul#backgroundnotes li a:hover {
+	text-decoration: underline;
+}
+ul#backgroundnotes {
+	list-style: none; margin: 0px; padding: 0px; line-height: 22px;
+}
+#country_photo td {
+	color: rgb(65, 65, 91); font-family: Lucida Grande; font-size: 11px;
+}
+#country_photo {
+	width: 260px; color: rgb(65, 65, 91); font-family: Lucida Grande; font-size: 11px;
+}
+#centerblock hr {
+	color: rgb(204, 204, 204);
+}
+#centerblock embed {
+	float: right;
+}
+#centerblock div.hr {
+	border: 0px currentColor; border-image: none; width: 100%; height: 1px; margin-top: 2px; margin-bottom: 2px; background-color: rgb(204, 204, 204);
+}
+#middlecolumn {
+	width: 650px; float: left;
+}
+#backtotoparrow {
+	background: url("/images/2010/back-to-top-arrow.gif") no-repeat 0px 100%; margin: 0px 0px 10px; width: 150px; height: 14px; text-decoration: none; display: block;
+}
+#backtotoparrow span {
+	text-decoration: none; margin-left: 17px;
+}
+#backtotoparrow span:hover {
+	text-decoration: underline;
+}
+div#map {
+	float: none;
+}
+span.offcamera {
+	font-weight: normal;
+}
+.viewer-links {
+	display: none;
+}
+.link1 {
+	display: none;
+}
+.link2 {
+	display: none;
+}
+.link3 {
+	display: none;
+}
+.link4 {
+	display: none;
+}
+.link5 {
+	display: none;
+}
+.link6 {
+	display: none;
+}
+.link7 {
+	display: none;
+}
+.link8 {
+	display: none;
+}
+.link9 {
+	display: none;
+}
+.link10 {
+	display: none;
+}
+.link11 {
+	display: none;
+}
+.link12 {
+	display: none;
+}
+.link13 {
+	display: none;
+}
+.link14 {
+	display: none;
+}
+.link15 {
+	display: none;
+}
+.link16 {
+	display: none;
+}
+.link17 {
+	display: none;
+}
+.link18 {
+	display: none;
+}
+.link19 {
+	display: none;
+}
+.link20 {
+	display: none;
+}
+.section h1 {
+	color: rgb(0, 0, 0);
+}
+.section h2 {
+	color: rgb(0, 0, 0);
+}
+.sub-section {
+	margin: 20px;
+}
+.sub-sub-section {
+	margin: 20px;
+}
+.centered-text {
+	display: none;
+}
+#hrrviewermesg {
+	color: maroon; font-size: 16px;
+}
+#hrrviewermesg a {
+	font-size: 16px;
+}
+#centerblock #icons {
+	display: none;
+}
+span#image_file .memorial_profile {
+	padding-right: 10px !important;
+}
+span.year_of_death {
+	padding: 10px 0px !important; font-weight: bold; display: block;
+}
+span.name- {
+	color: rgb(162, 37, 56); font-weight: bold;
+}
+span.quote {
+	font-style: italic;
+}

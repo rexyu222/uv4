@@ -1,0 +1,1572 @@
+dfn {
+	font-style: inherit;
+}
+ol.references {
+	font-size: 90%; margin-bottom: 0.5em;
+}
+div.reflist {
+	font-size: 90%; margin-bottom: 0.5em;
+}
+div.reflist ol.references {
+	font-size: 100%;
+}
+div.reflist ol.references {
+	list-style-type: inherit;
+}
+div.notelist ol.references {
+	list-style-type: inherit;
+}
+div.references-2column {
+	font-size: 90%; column-count: 2; -moz-column-count: 2;
+}
+div.references-2column ol.references {
+	font-size: 100%;
+}
+div.references-2column div.reflist {
+	font-size: 100%;
+}
+div.columns {
+	margin-top: 0.3em;
+}
+div.columns dl {
+	margin-top: 0px;
+}
+div.columns ol {
+	margin-top: 0px;
+}
+div.columns ul {
+	margin-top: 0px;
+}
+div.columns li {
+	page-break-inside: avoid; break-inside: avoid-column; -webkit-column-break-inside: avoid;
+}
+div.columns dd dd {
+	page-break-inside: avoid; break-inside: avoid-column; -webkit-column-break-inside: avoid;
+}
+ol.references li:target {
+	background-color: rgb(221, 238, 255);
+}
+sup:target.reference {
+	background-color: rgb(221, 238, 255);
+}
+span:target.citation {
+	background-color: rgb(221, 238, 255);
+}
+.nowrap {
+	white-space: nowrap;
+}
+.nowraplinks a {
+	white-space: nowrap;
+}
+.nowraplinks .selflink {
+	white-space: nowrap;
+}
+span.texhtml {
+	white-space: nowrap;
+}
+sup.reference a {
+	white-space: nowrap;
+}
+.nowraplinks a::before {
+	font-size: 0px; white-space: normal; content: " ";
+}
+.nowraplinks .selflink::before {
+	font-size: 0px; white-space: normal; content: " ";
+}
+.nowraplinks .nowrap a::before {
+	white-space: nowrap;
+}
+.nowraplinks .nowrap .selflink::before {
+	white-space: nowrap;
+}
+.skin-monobook .hlist dl {
+	line-height: 1.5em;
+}
+.skin-modern .hlist dl {
+	line-height: 1.5em;
+}
+.skin-vector .hlist dl {
+	line-height: 1.5em;
+}
+.hlist dl {
+	margin: 0px;
+}
+.hlist ol {
+	margin: 0px;
+}
+.hlist ul {
+	margin: 0px;
+}
+.hlist dd {
+	margin: 0px; display: inline;
+}
+.hlist dt {
+	margin: 0px; display: inline;
+}
+.hlist li {
+	margin: 0px; display: inline;
+}
+.hlist dl dl {
+	display: inline;
+}
+.hlist ol ol {
+	display: inline;
+}
+.hlist ul ul {
+	display: inline;
+}
+.hlist dt::after {
+	content: " :";
+}
+.hlist dd::after {
+	font-weight: bold; content: " · ";
+}
+.hlist li::after {
+	font-weight: bold; content: " · ";
+}
+.hlist dd:last-child::after {
+	content: none;
+}
+.hlist dt:last-child::after {
+	content: none;
+}
+.hlist li:last-child::after {
+	content: none;
+}
+.hlist dd.nopunct::after {
+	content: none;
+}
+.hlist dt.nopunct::after {
+	content: none;
+}
+.hlist li.nopunct::after {
+	content: none;
+}
+.hlist dl dl::before {
+	content: "(";
+}
+.hlist ol ol::before {
+	content: "(";
+}
+.hlist ul ul::before {
+	content: "(";
+}
+.hlist dl dl::after {
+	content: ")";
+}
+.hlist ol ol::after {
+	content: ")";
+}
+.hlist ul ul::after {
+	content: ")";
+}
+.hlist.hnum ol li {
+	counter-increment: level1;
+}
+.hlist.hnum ol li::before {
+	content: counter(level1) " ";
+}
+.hlist.hnum ol ol li {
+	counter-increment: level2;
+}
+.hlist.hnum ol ol li::before {
+	content: counter(level2) " ";
+}
+.plainlist ul {
+	list-style: none; margin: 0px; line-height: inherit;
+}
+.plainlist ul li {
+	margin-bottom: 0px;
+}
+.same-bg {
+	background: none;
+}
+.notice {
+	margin: 1em; padding: 0.2em; text-align: justify;
+}
+#disambig {
+	border-top-color: rgb(162, 169, 177); border-bottom-color: rgb(162, 169, 177); border-top-width: 3px; border-bottom-width: 3px; border-top-style: double; border-bottom-style: double;
+}
+#spoiler {
+	border-top-color: rgb(162, 169, 177); border-bottom-color: rgb(162, 169, 177); border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;
+}
+.infobox {
+	padding: 0.2em; border: 1px solid rgb(162, 169, 177); border-image: none; color: black; clear: right; margin-bottom: 0.5em; margin-left: 1em; float: right; background-color: rgb(248, 249, 250);
+}
+.infobox td {
+	vertical-align: top;
+}
+.infobox th {
+	vertical-align: top;
+}
+.infobox caption {
+	font-size: larger;
+}
+.infobox.bordered {
+	border-collapse: collapse;
+}
+.infobox.bordered td {
+	border: 1px solid rgb(162, 169, 177); border-image: none;
+}
+.infobox.bordered th {
+	border: 1px solid rgb(162, 169, 177); border-image: none;
+}
+.infobox.bordered .borderless td {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.bordered .borderless th {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.sisterproject {
+	width: 20em; font-size: 90%;
+}
+.infobox.bordered .mergedtoprow td {
+	border-width: 1px 1px 0px 0px; border-style: solid solid none none; border-color: rgb(162, 169, 177) rgb(162, 169, 177) currentColor currentColor; border-image: none;
+}
+.infobox.bordered .mergedtoprow th {
+	border-width: 1px 1px 0px 0px; border-style: solid solid none none; border-color: rgb(162, 169, 177) rgb(162, 169, 177) currentColor currentColor; border-image: none;
+}
+.infobox.bordered .mergedrow td {
+	border-width: 0px 1px 0px 0px; border-style: none solid none none; border-color: currentColor rgb(162, 169, 177) currentColor currentColor; border-image: none;
+}
+.infobox.bordered .mergedrow th {
+	border-width: 0px 1px 0px 0px; border-style: none solid none none; border-color: currentColor rgb(162, 169, 177) currentColor currentColor; border-image: none;
+}
+.infobox.geography {
+	text-align: left; line-height: 1.2em; font-size: 90%; border-collapse: collapse;
+}
+.infobox.geography td {
+	padding: 0.4em 0.6em; border-top-color: rgb(162, 169, 177); border-top-width: 1px; border-top-style: solid;
+}
+.infobox.geography th {
+	padding: 0.4em 0.6em; border-top-color: rgb(162, 169, 177); border-top-width: 1px; border-top-style: solid;
+}
+.infobox.geography .mergedtoprow td {
+	padding: 0.4em 0.6em 0.2em; border-top-color: rgb(162, 169, 177); border-top-width: 1px; border-top-style: solid;
+}
+.infobox.geography .mergedtoprow th {
+	padding: 0.4em 0.6em 0.2em; border-top-color: rgb(162, 169, 177); border-top-width: 1px; border-top-style: solid;
+}
+.infobox.geography .mergedrow td {
+	padding: 0px 0.6em 0.2em; border: 0px currentColor; border-image: none;
+}
+.infobox.geography .mergedrow th {
+	padding: 0px 0.6em 0.2em; border: 0px currentColor; border-image: none;
+}
+.infobox.geography .mergedbottomrow td {
+	padding: 0px 0.6em 0.4em; border-top-color: currentColor; border-bottom-color: rgb(162, 169, 177); border-top-width: 0px; border-bottom-width: 1px; border-top-style: none; border-bottom-style: solid;
+}
+.infobox.geography .mergedbottomrow th {
+	padding: 0px 0.6em 0.4em; border-top-color: currentColor; border-bottom-color: rgb(162, 169, 177); border-top-width: 0px; border-bottom-width: 1px; border-top-style: none; border-bottom-style: solid;
+}
+.infobox.geography .maptable td {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+.infobox.geography .maptable th {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+#wpSave {
+	font-weight: bold;
+}
+.hiddenStructure {
+	color: rgb(255, 0, 0); display: inline !important; background-color: rgb(0, 255, 0);
+}
+.nounderlines a {
+	text-decoration: none !important;
+}
+.charboxblack a:link {
+	color: black;
+}
+.charboxblack a:hover {
+	color: black;
+}
+.charboxblack a:visited {
+	color: black;
+}
+.charboxblack a:active {
+	color: black;
+}
+.charboxsilver a:link {
+	color: silver;
+}
+.charboxsilver a:hover {
+	color: silver;
+}
+.charboxsilver a:visited {
+	color: silver;
+}
+.charboxsilver a:active {
+	color: silver;
+}
+.charboxgray a:link {
+	color: gray;
+}
+.charboxgray a:hover {
+	color: gray;
+}
+.charboxgray a:visited {
+	color: gray;
+}
+.charboxgray a:active {
+	color: gray;
+}
+.charboxwhite a:link {
+	color: white;
+}
+.charboxwhite a:hover {
+	color: white;
+}
+.charboxwhite a:visited {
+	color: white;
+}
+.charboxwhite a:active {
+	color: white;
+}
+.charboxmaroon a:link {
+	color: maroon;
+}
+.charboxmaroon a:hover {
+	color: maroon;
+}
+.charboxmaroon a:visited {
+	color: maroon;
+}
+.charboxmaroon a:active {
+	color: maroon;
+}
+.charboxred a:link {
+	color: red;
+}
+.charboxred a:hover {
+	color: red;
+}
+.charboxred a:visited {
+	color: red;
+}
+.charboxred a:active {
+	color: red;
+}
+.charboxpurple a:link {
+	color: purple;
+}
+.charboxpurple a:hover {
+	color: purple;
+}
+.charboxpurple a:visited {
+	color: purple;
+}
+.charboxpurple a:active {
+	color: purple;
+}
+.charboxfuchsia a:link {
+	color: fuchsia;
+}
+.charboxfuchsia a:hover {
+	color: fuchsia;
+}
+.charboxfuchsia a:visited {
+	color: fuchsia;
+}
+.charboxfuchsia a:active {
+	color: fuchsia;
+}
+.charboxgreen a:link {
+	color: green;
+}
+.charboxgreen a:hover {
+	color: green;
+}
+.charboxgreen a:visited {
+	color: green;
+}
+.charboxgreen a:active {
+	color: green;
+}
+.charboxlime a:link {
+	color: lime;
+}
+.charboxlime a:hover {
+	color: lime;
+}
+.charboxlime a:visited {
+	color: lime;
+}
+.charboxlime a:active {
+	color: lime;
+}
+.charboxolive a:link {
+	color: olive;
+}
+.charboxolive a:hover {
+	color: olive;
+}
+.charboxolive a:visited {
+	color: olive;
+}
+.charboxolive a:active {
+	color: olive;
+}
+.charboxyellow a:link {
+	color: yellow;
+}
+.charboxyellow a:hover {
+	color: yellow;
+}
+.charboxyellow a:visited {
+	color: yellow;
+}
+.charboxyellow a:active {
+	color: yellow;
+}
+.charboxnavy a:link {
+	color: navy;
+}
+.charboxnavy a:hover {
+	color: navy;
+}
+.charboxnavy a:visited {
+	color: navy;
+}
+.charboxnavy a:active {
+	color: navy;
+}
+.charboxblue a:link {
+	color: blue;
+}
+.charboxblue a:hover {
+	color: blue;
+}
+.charboxblue a:visited {
+	color: blue;
+}
+.charboxblue a:active {
+	color: blue;
+}
+.charboxteal a:link {
+	color: teal;
+}
+.charboxteal a:hover {
+	color: teal;
+}
+.charboxteal a:visited {
+	color: teal;
+}
+.charboxteal a:active {
+	color: teal;
+}
+.charboxaqua a:link {
+	color: aqua;
+}
+.charboxaqua a:hover {
+	color: aqua;
+}
+.charboxaqua a:visited {
+	color: aqua;
+}
+.charboxaqua a:active {
+	color: aqua;
+}
+#editpage-specialchars a {
+	text-decoration: none;
+}
+#editpage-specialchars a:hover {
+	text-decoration: underline;
+}
+div.thumb div a img {
+	background-color: rgb(248, 249, 250);
+}
+#file img {
+	background: url("//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png");
+}
+.hatnote {
+	font-size: small;
+}
+.hatnote i {
+	font-style: normal;
+}
+div.hatnote {
+	padding-left: 2em; margin-top: 0.8em; margin-bottom: 0.8em;
+}
+div.hatnote + div.hatnote {
+	margin-top: -0.5em;
+}
+.geo-default {
+	display: inline;
+}
+.geo-dms {
+	display: inline;
+}
+.geo-dec {
+	display: inline;
+}
+.geo-nondefault {
+	display: none;
+}
+.geo-multi-punct {
+	display: none;
+}
+.longitude {
+	white-space: nowrap;
+}
+.latitude {
+	white-space: nowrap;
+}
+.navbox {
+	margin: auto; padding: 1px; border: 1px solid rgb(162, 169, 177); border-image: none; width: 100%; text-align: center; clear: both; font-size: 88%;
+}
+.navbox-inner {
+	width: 100%;
+}
+.navbox-subgroup {
+	width: 100%;
+}
+.navbox th {
+	text-align: center; padding-right: 1em; padding-left: 1em;
+}
+.navbox-title {
+	text-align: center; padding-right: 1em; padding-left: 1em;
+}
+.navbox-abovebelow {
+	text-align: center; padding-right: 1em; padding-left: 1em;
+}
+th.navbox-group {
+	text-align: right; white-space: nowrap;
+}
+.navbox {
+	background: rgb(253, 253, 253);
+}
+.navbox-subgroup {
+	background: rgb(253, 253, 253);
+}
+.navbox-list {
+	border-color: rgb(253, 253, 253);
+}
+.navbox th {
+	background: rgb(204, 204, 255);
+}
+.navbox-title {
+	background: rgb(204, 204, 255);
+}
+.navbox-abovebelow {
+	background: rgb(221, 221, 255);
+}
+th.navbox-group {
+	background: rgb(221, 221, 255);
+}
+.navbox-subgroup .navbox-title {
+	background: rgb(221, 221, 255);
+}
+.navbox-subgroup .navbox-group {
+	background: rgb(230, 230, 255);
+}
+.navbox-subgroup .navbox-abovebelow {
+	background: rgb(230, 230, 255);
+}
+.navbox-even {
+	background: rgb(247, 247, 247);
+}
+.navbox-odd {
+	background: none;
+}
+table.navbox + table.navbox {
+	margin-top: -1px;
+}
+.navbox .hlist td dl {
+	padding: 0.12em 0px;
+}
+.navbox .hlist td ol {
+	padding: 0.12em 0px;
+}
+.navbox .hlist td ul {
+	padding: 0.12em 0px;
+}
+.navbox td.hlist dl {
+	padding: 0.12em 0px;
+}
+.navbox td.hlist ol {
+	padding: 0.12em 0px;
+}
+.navbox td.hlist ul {
+	padding: 0.12em 0px;
+}
+.navbox .hlist dd {
+	white-space: nowrap;
+}
+.navbox .hlist dt {
+	white-space: nowrap;
+}
+.navbox .hlist li {
+	white-space: nowrap;
+}
+.navbox .hlist dd dl {
+	white-space: normal;
+}
+.navbox .hlist dt dl {
+	white-space: normal;
+}
+.navbox .hlist li ol {
+	white-space: normal;
+}
+.navbox .hlist li ul {
+	white-space: normal;
+}
+ol + table.navbox {
+	margin-top: 0.5em;
+}
+ul + table.navbox {
+	margin-top: 0.5em;
+}
+.navbar {
+	font-weight: normal; display: inline;
+}
+.navbar ul {
+	display: inline; white-space: nowrap;
+}
+.navbar li {
+	word-spacing: -0.12em;
+}
+.navbar.mini li abbr[title] {
+	font-variant: small-caps; text-decoration: none; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; cursor: inherit;
+}
+.navbox .navbar {
+	display: block;
+}
+.navbox-title .navbar {
+	width: 8em; text-align: left; margin-right: 0.5em; float: left;
+}
+.collapseButton {
+	width: auto; text-align: right; font-weight: normal; margin-left: 0.5em; float: right;
+}
+.navbox .collapseButton {
+	width: 8em;
+}
+.noedit .editsection {
+	display: none;
+}
+.noedit .mw-editsection {
+	display: none;
+}
+.DYKvote h2 {
+	margin-top: 2em;
+}
+.DYKvote h3 {
+	margin-top: 2em;
+}
+.DYKvote h4 {
+	margin-top: 2em;
+}
+.messagebox {
+	margin: 0px auto 1em; padding: 0.2em; border: 1px solid rgb(162, 169, 177); border-image: none; width: 80%; background-color: rgb(248, 249, 250);
+}
+.messagebox.merge {
+	border: 1px solid rgb(192, 184, 204); border-image: none; text-align: center; background-color: rgb(240, 229, 255);
+}
+.messagebox.cleanup {
+	border: 1px solid rgb(159, 159, 255); border-image: none; text-align: center; background-color: rgb(239, 239, 255);
+}
+.messagebox.standard-talk {
+	border: 1px solid rgb(192, 192, 144); border-image: none; background-color: rgb(248, 234, 186);
+}
+.messagebox.nested-talk {
+	margin: 2px 4px; border: 1px solid rgb(192, 192, 144); border-image: none; width: 100%; background-color: rgb(248, 234, 186);
+}
+.messagebox.small {
+	margin: 0px 0px 1em 1em; width: 238px; line-height: 1.25em; clear: both; font-size: 85%; float: right;
+}
+.messagebox.small-talk {
+	background: rgb(248, 249, 250); margin: 0px 0px 1em 1em; width: 238px; line-height: 1.25em; clear: both; font-size: 85%; float: right;
+}
+.template-documentation {
+	margin: 1em 0px 0px; padding: 5px; border: 1px solid rgb(162, 169, 177); border-image: none; clear: both; background-color: rgb(236, 252, 244);
+}
+#bodyContent a[href$='.pdf'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.pdf?'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.pdf#'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href$='.PDF'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.PDF?'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.PDF#'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right; padding-right: 16px;
+}
+span.lanLabel {
+	color: rgb(114, 119, 125); padding-left: 0.5em;
+}
+tt span.minor {
+	margin: 0px -2px 0px -3px; font-size: 12px;
+}
+tt span.newpage {
+	margin: 0px 1px 0px -6px; font-size: 12px;
+}
+tt span.bot {
+	margin: 0px -6px 0px 1px; font-size: 12px;
+}
+div.user-block {
+	padding: 5px; border: 1px solid rgb(162, 169, 177); border-image: none; background-color: rgb(255, 239, 213);
+}
+@media screen, handheld, projection
+{
+cite *.printonly {
+	display: none;
+}
+}
+.mcBoto {
+	border-width: 0.15em; border-style: solid; border-color: rgb(240, 208, 255) rgb(176, 144, 224) rgb(144, 112, 192) rgb(240, 208, 255); padding: 0.2em 0.3em; border-image: none; margin-right: 0.1em; display: inline; position: relative; cursor: pointer; background-color: rgb(208, 176, 255); border-radius-topleft: .5em; border-radius-topright: .5em; -moz-border-radius: .5em .5em 0em 0em;
+}
+.mcBoto a {
+	background: none !important; padding: 0px !important; color: rgb(112, 80, 160) !important; font-size: 90%; font-weight: bold; text-decoration: none !important;
+}
+.mcBoto strong {
+	background: none !important; padding: 0px !important; color: rgb(112, 80, 160) !important; font-size: 90%; font-weight: bold; text-decoration: none !important;
+}
+.mcBoto a:hover {
+	color: black !important; text-decoration: underline !important;
+}
+.mcBoto strong:hover {
+	color: black !important; text-decoration: underline !important;
+}
+.mcBotoSel {
+	border-width: 0.15em; border-style: solid; border-color: rgb(176, 144, 224) rgb(112, 80, 160) rgb(144, 112, 192) rgb(176, 144, 224); padding: 0.2em 0.3em; border-image: none; color: white; margin-right: 0.1em; display: inline; position: relative; cursor: default; background-color: rgb(144, 112, 192); border-radius-topleft: .5em; border-radius-topright: .5em; -moz-border-radius: .5em .5em 0em 0em;
+}
+.mcBotoSel a {
+	background: none !important; padding: 0px !important; color: white !important; font-size: 90%; font-weight: bold; text-decoration: none !important; cursor: default;
+}
+.mcContingut {
+	border-width: 0.2em; border-style: solid; border-color: rgb(144, 112, 192) rgb(112, 80, 160) rgb(112, 80, 160) rgb(144, 112, 192); padding: 1em; border-image: none; position: static; background-color: rgb(248, 248, 255); border-radius-topright: .5em; -moz-border-radius: 0em .5em .5em 0em; border-radius-bottomright: .5em;
+}
+.mcPestanya {
+	border-color: rgb(112, 80, 160) rgb(176, 144, 224) rgb(176, 144, 224) rgb(112, 80, 160); width: 100%; background-color: rgb(248, 248, 255);
+}
+.mcVerd .mcBoto {
+	border-color: rgb(192, 240, 144) rgb(144, 208, 96) rgb(117, 192, 69) rgb(192, 240, 144); background-color: rgb(165, 224, 133);
+}
+.mcVerd .mcBoto a {
+	color: rgb(96, 176, 48) !important; font-size: 90%;
+}
+.mcVerd .mcBoto strong {
+	color: rgb(96, 176, 48) !important; font-size: 90%;
+}
+.mcVerd .mcBoto a:hover {
+	color: black !important; text-decoration: underline;
+}
+.mcVerd .mcBoto strong:hover {
+	color: black !important; text-decoration: underline;
+}
+.mcVerd .mcBotoSel {
+	border-color: rgb(144, 208, 96) rgb(96, 176, 48) rgb(117, 192, 69) rgb(144, 208, 96); background-color: rgb(117, 192, 69);
+}
+.mcVerd .mcContingut {
+	border-color: rgb(117, 192, 69) rgb(96, 176, 48) rgb(96, 176, 48) rgb(117, 192, 69); background-color: rgb(245, 255, 250);
+}
+.mcVerd .mcPestanya {
+	border-color: rgb(96, 176, 48) rgb(144, 208, 96) rgb(144, 208, 96) rgb(96, 176, 48); background-color: rgb(245, 255, 250);
+}
+.mcVermell .mcBoto {
+	border-color: rgb(255, 204, 204) rgb(255, 136, 136) rgb(255, 0, 0) rgb(255, 204, 204); background-color: rgb(255, 170, 170);
+}
+.mcVermell .mcBoto a {
+	color: rgb(204, 0, 0) !important; font-size: 90%;
+}
+.mcVermell .mcBoto strong {
+	color: rgb(204, 0, 0) !important; font-size: 90%;
+}
+.mcVermell .mcBoto a:hover .mcVermell .mcBoto strong:hover {
+	color: black !important; text-decoration: underline;
+}
+.mcVermell .mcBotoSel {
+	border-color: rgb(255, 136, 136) rgb(204, 0, 0) rgb(255, 0, 0) rgb(255, 136, 136); background-color: rgb(255, 0, 0);
+}
+.mcVermell .mcContingut {
+	border-color: rgb(255, 0, 0) rgb(204, 0, 0) rgb(204, 0, 0) rgb(255, 0, 0); background-color: rgb(255, 250, 250);
+}
+.mcVermell .mcPestanya {
+	border-color: rgb(204, 0, 0) rgb(255, 0, 0) rgb(255, 0, 0) rgb(204, 0, 0); background-color: rgb(255, 250, 250);
+}
+.mcBlau .mcBoto {
+	border-color: rgb(200, 214, 233) rgb(136, 171, 222) rgb(91, 141, 214) rgb(200, 214, 233); background-color: rgb(167, 193, 230);
+}
+.mcBlau .mcBoto a {
+	color: rgb(51, 121, 222) !important; font-size: 90%;
+}
+.mcBlau .mcBoto strong {
+	color: rgb(51, 121, 222) !important; font-size: 90%;
+}
+.mcBlau .mcBoto a:hover .mcBlau .mcBoto strong:hover {
+	color: black !important; text-decoration: underline;
+}
+.mcBlau .mcBotoSel {
+	border-color: rgb(136, 171, 222) rgb(51, 121, 222) rgb(91, 141, 214) rgb(136, 171, 222); background-color: rgb(91, 141, 214);
+}
+.mcBlau .mcContingut {
+	border-color: rgb(91, 141, 214) rgb(51, 121, 222) rgb(51, 121, 222) rgb(91, 141, 214); background-color: rgb(240, 248, 255);
+}
+.mcBlau .mcPestanya {
+	border-color: rgb(51, 121, 222) rgb(136, 171, 222) rgb(136, 171, 222) rgb(51, 121, 222); background-color: rgb(240, 248, 255);
+}
+.mcGroc .mcBoto {
+	border-color: rgb(254, 244, 188) rgb(255, 233, 119) rgb(255, 225, 71) rgb(254, 244, 188); background-color: rgb(255, 241, 164);
+}
+.mcGroc .mcBoto a {
+	color: rgb(255, 216, 19) !important; font-size: 90%;
+}
+.mcGroc .mcBoto strong {
+	color: rgb(255, 216, 19) !important; font-size: 90%;
+}
+.mcGroc .mcBoto a:hover .mcGroc .mcBoto strong:hover {
+	color: black !important; text-decoration: underline;
+}
+.mcGroc .mcBotoSel {
+	border-color: rgb(255, 233, 119) rgb(255, 216, 19) rgb(255, 225, 71) rgb(255, 233, 119); background-color: rgb(255, 225, 71);
+}
+.mcGroc .mcContingut {
+	border-color: rgb(255, 225, 71) rgb(255, 216, 19) rgb(255, 216, 19) rgb(255, 225, 71); background-color: rgb(255, 252, 232);
+}
+.mcGroc .mcPestanya {
+	border-color: rgb(255, 216, 19) rgb(136, 171, 222) rgb(136, 171, 222) rgb(255, 216, 19); background-color: rgb(255, 252, 232);
+}
+.mcTaronja .mcBoto {
+	border-color: rgb(255, 208, 164) rgb(255, 172, 93) rgb(255, 157, 66) rgb(255, 208, 164); background-color: rgb(255, 189, 127);
+}
+.mcTaronja .mcBoto a {
+	color: rgb(255, 130, 14) !important; font-size: 90%;
+}
+.mcTaronja .mcBoto strong {
+	color: rgb(255, 130, 14) !important; font-size: 90%;
+}
+.mcTaronja .mcBoto a:hover .mcTaronja .mcBoto strong:hover {
+	color: black !important; text-decoration: underline;
+}
+.mcTaronja .mcBotoSel {
+	border-color: rgb(255, 172, 93) rgb(255, 130, 14) rgb(255, 157, 66) rgb(255, 172, 93); background-color: rgb(255, 157, 66);
+}
+.mcTaronja .mcContingut {
+	border-color: rgb(255, 157, 66) rgb(255, 130, 14) rgb(255, 130, 14) rgb(255, 157, 66); background-color: rgb(255, 238, 221);
+}
+.mcTaronja .mcPestanya {
+	border-color: rgb(255, 130, 14) rgb(255, 172, 93) rgb(255, 172, 93) rgb(255, 130, 14); background-color: rgb(255, 238, 221);
+}
+th.mbox-text {
+	padding: 0.25em 0.9em; border: currentColor; border-image: none; width: 100%;
+}
+td.mbox-text {
+	padding: 0.25em 0.9em; border: currentColor; border-image: none; width: 100%;
+}
+td.mbox-image {
+	padding: 2px 0px 2px 0.9em; border: currentColor; border-image: none; text-align: center;
+}
+td.mbox-imageright {
+	padding: 2px 0.9em 2px 0px; border: currentColor; border-image: none; text-align: center;
+}
+td.mbox-empty-cell {
+	padding: 0px; border: currentColor; border-image: none; width: 1px;
+}
+table.ambox {
+	background: rgb(248, 249, 250); border-width: 1px 1px 1px 10px; border-style: solid; border-color: rgb(162, 169, 177) rgb(162, 169, 177) rgb(162, 169, 177) rgb(51, 102, 204); margin: 0px 10%; border-image: none;
+}
+table.ambox + table.ambox {
+	margin-top: -1px;
+}
+.ambox th.mbox-text {
+	padding: 0.25em 0.5em;
+}
+.ambox td.mbox-text {
+	padding: 0.25em 0.5em;
+}
+.ambox td.mbox-image {
+	padding: 2px 0px 2px 0.5em;
+}
+.ambox td.mbox-imageright {
+	padding: 2px 0.5em 2px 0px;
+}
+table.ambox-notice {
+	border-left-color: rgb(51, 102, 204); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-speedy {
+	background: rgb(254, 231, 230); border-left-color: rgb(179, 36, 36); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-delete {
+	border-left-color: rgb(179, 36, 36); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-content {
+	border-left-color: rgb(242, 133, 0); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-style {
+	border-left-color: rgb(255, 204, 51); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-move {
+	border-left-color: rgb(153, 50, 204); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-protection {
+	border-left-color: rgb(162, 169, 177); border-left-width: 10px; border-left-style: solid;
+}
+table.imbox {
+	background: rgb(248, 249, 250); margin: 4px 10%; border: 3px solid rgb(51, 102, 204); border-image: none; border-collapse: collapse;
+}
+.imbox .mbox-text .imbox {
+	margin: 0px -0.5em;
+}
+.mbox-inside .imbox {
+	margin: 4px;
+}
+table.imbox-notice {
+	border: 3px solid rgb(51, 102, 204); border-image: none;
+}
+table.imbox-speedy {
+	background: rgb(254, 231, 230); border: 3px solid rgb(179, 36, 36); border-image: none;
+}
+table.imbox-delete {
+	border: 3px solid rgb(179, 36, 36); border-image: none;
+}
+table.imbox-content {
+	border: 3px solid rgb(242, 133, 0); border-image: none;
+}
+table.imbox-style {
+	border: 3px solid rgb(255, 204, 51); border-image: none;
+}
+table.imbox-move {
+	border: 3px solid rgb(153, 50, 204); border-image: none;
+}
+table.imbox-protection {
+	border: 3px solid rgb(162, 169, 177); border-image: none;
+}
+table.imbox-license {
+	background: rgb(247, 248, 255); border: 3px solid rgb(136, 136, 170); border-image: none;
+}
+table.imbox-featured {
+	border: 3px solid rgb(203, 161, 53); border-image: none;
+}
+table.cmbox {
+	background: rgb(234, 243, 255); margin: 3px 10%; border: 1px solid rgb(162, 169, 177); border-image: none; border-collapse: collapse;
+}
+table.cmbox-notice {
+	background: rgb(234, 243, 255);
+}
+table.cmbox-speedy {
+	background: rgb(254, 231, 230); border: 4px solid rgb(179, 36, 36); border-image: none; margin-top: 4px; margin-bottom: 4px;
+}
+table.cmbox-delete {
+	background: rgb(254, 231, 230);
+}
+table.cmbox-content {
+	background: rgb(255, 231, 206);
+}
+table.cmbox-style {
+	background: rgb(255, 249, 219);
+}
+table.cmbox-move {
+	background: rgb(228, 216, 255);
+}
+table.cmbox-protection {
+	background: rgb(239, 239, 225);
+}
+table.ombox {
+	background: rgb(248, 249, 250); margin: 4px 10%; border: 1px solid rgb(162, 169, 177); border-image: none; border-collapse: collapse;
+}
+table.ombox-notice {
+	border: 1px solid rgb(162, 169, 177); border-image: none;
+}
+table.ombox-speedy {
+	background: rgb(254, 231, 230); border: 2px solid rgb(179, 36, 36); border-image: none;
+}
+table.ombox-delete {
+	border: 2px solid rgb(179, 36, 36); border-image: none;
+}
+table.ombox-content {
+	border: 1px solid rgb(242, 133, 0); border-image: none;
+}
+table.ombox-style {
+	border: 1px solid rgb(255, 204, 51); border-image: none;
+}
+table.ombox-move {
+	border: 1px solid rgb(153, 50, 204); border-image: none;
+}
+table.ombox-protection {
+	border: 2px solid rgb(162, 169, 177); border-image: none;
+}
+table.tmbox {
+	background: rgb(248, 234, 186); margin: 4px 10%; border: 1px solid rgb(192, 192, 144); border-image: none; border-collapse: collapse;
+}
+.mediawiki .mbox-inside .tmbox {
+	margin: 2px 0px; width: 100%;
+}
+.mbox-inside .tmbox.mbox-small {
+	line-height: 1.5em; font-size: 100%;
+}
+table.tmbox-speedy {
+	background: rgb(254, 231, 230); border: 2px solid rgb(179, 36, 36); border-image: none;
+}
+table.tmbox-delete {
+	border: 2px solid rgb(179, 36, 36); border-image: none;
+}
+table.tmbox-content {
+	border: 2px solid rgb(242, 133, 0); border-image: none;
+}
+table.tmbox-style {
+	border: 2px solid rgb(255, 204, 51); border-image: none;
+}
+table.tmbox-move {
+	border: 2px solid rgb(153, 50, 204); border-image: none;
+}
+table.tmbox-protection {
+	border: 1px solid rgb(192, 192, 144); border-image: none;
+}
+table.tmbox-notice {
+	border: 1px solid rgb(192, 192, 144); border-image: none;
+}
+table.dmbox {
+	background: none; margin: 0.9em 1em; clear: both; font-size: small; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.fmbox {
+	background: rgb(248, 249, 250); margin: 0.2em 0px; border: 1px solid rgb(162, 169, 177); border-image: none; width: 100%; clear: both;
+}
+table.fmbox-system {
+	background: rgb(248, 249, 250);
+}
+table.fmbox-warning {
+	background: rgb(255, 219, 219); border: 1px solid rgb(187, 112, 112); border-image: none;
+}
+table.fmbox-editnotice {
+	background: none;
+}
+div.mw-warning-with-logexcerpt {
+	background: rgb(255, 219, 219); margin: 0.2em 0px; padding: 0.25em 0.9em; border: 1px solid rgb(187, 112, 112); border-image: none; clear: both;
+}
+div.mw-lag-warn-high {
+	background: rgb(255, 219, 219); margin: 0.2em 0px; padding: 0.25em 0.9em; border: 1px solid rgb(187, 112, 112); border-image: none; clear: both;
+}
+div.mw-cascadeprotectedwarning {
+	background: rgb(255, 219, 219); margin: 0.2em 0px; padding: 0.25em 0.9em; border: 1px solid rgb(187, 112, 112); border-image: none; clear: both;
+}
+div#mw-protect-cascadeon {
+	background: rgb(255, 219, 219); margin: 0.2em 0px; padding: 0.25em 0.9em; border: 1px solid rgb(187, 112, 112); border-image: none; clear: both;
+}
+div.noarticletext {
+	background: rgb(248, 249, 250); margin: 0.2em 0px; padding: 0.25em 0.9em; border: 1px solid rgb(162, 169, 177); border-image: none; clear: both;
+}
+div.fmbox-system {
+	background: rgb(248, 249, 250); margin: 0.2em 0px; padding: 0.25em 0.9em; border: 1px solid rgb(162, 169, 177); border-image: none; clear: both;
+}
+body.mediawiki table.mbox-small {
+	margin: 4px 0px 4px 1em; width: 238px; line-height: 1.25em; clear: right; font-size: 88%; float: right;
+}
+body.mediawiki table.mbox-small-left {
+	margin: 4px 1em 4px 0px; width: 238px; line-height: 1.25em; font-size: 88%; border-collapse: collapse;
+}
+.compact-ambox table.ambox {
+	background: none; margin: 0px 0px 0px 1.6em !important; padding: 0px !important; border: currentColor; border-image: none; width: auto; display: block; border-collapse: collapse;
+}
+body.mediawiki .compact-ambox table.mbox-small-left {
+	margin: 0px; width: auto; font-size: 100%;
+}
+.compact-ambox table .mbox-text {
+	margin: 0px !important; padding: 0px !important;
+}
+.compact-ambox table .mbox-text-span {
+	line-height: 1.5em; display: list-item; list-style-type: square; list-style-image: url("data:image/gif;base64,R0lGODlhBQANAIAAAGOMnP///yH5BAEAAAEALAAAAAAFAA0AAAIJjI+pu+APo4SpADs=");
+}
+.compact-ambox table .mbox-image {
+	display: none;
+}
+.compact-ambox table .mbox-imageright {
+	display: none;
+}
+.compact-ambox table .mbox-empty-cell {
+	display: none;
+}
+#siteNotice div {
+	margin: 0px;
+}
+#mw-dismissable-notice {
+	background: none;
+}
+#wpSummary {
+	margin-top: 0px; margin-bottom: 0px;
+}
+#wpSummaryLabel {
+	margin-top: 0px; margin-bottom: 0px;
+}
+input#wpSummary {
+	margin-top: 0px; margin-bottom: 0px;
+}
+input.mw-summary {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.toclimit-2 .toclevel-2 {
+	display: none;
+}
+.toclimit-3 .toclevel-3 {
+	display: none;
+}
+.toclimit-4 .toclevel-4 {
+	display: none;
+}
+.toclimit-5 .toclevel-5 {
+	display: none;
+}
+.toclimit-6 .toclevel-6 {
+	display: none;
+}
+.toclimit-7 .toclevel-7 {
+	display: none;
+}
+cite {
+	font-style: normal;
+}
+#p-logo a:lang(zh-hans) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans.png") !important;
+}
+#p-logo a:lang(zh-cn) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans.png") !important;
+}
+#p-logo a:lang(zh-my) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans.png") !important;
+}
+#p-logo a:lang(zh-sg) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans.png") !important;
+}
+@media not all, not all
+{
+#p-logo a:lang(zh-hans) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-1.5x.png") !important; background-size: 136px auto;
+}
+#p-logo a:lang(zh-cn) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-1.5x.png") !important; background-size: 136px auto;
+}
+#p-logo a:lang(zh-my) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-1.5x.png") !important; background-size: 136px auto;
+}
+#p-logo a:lang(zh-sg) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-1.5x.png") !important; background-size: 136px auto;
+}
+}
+@media not all, not all
+{
+#p-logo a:lang(zh-hans) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-2x.png") !important; background-size: 135px auto;
+}
+#p-logo a:lang(zh-cn) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-2x.png") !important; background-size: 135px auto;
+}
+#p-logo a:lang(zh-my) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-2x.png") !important; background-size: 135px auto;
+}
+#p-logo a:lang(zh-sg) {
+	background-image: url("//zh.wikipedia.org/static/images/project-logos/zhwiki-hans-2x.png") !important; background-size: 135px auto;
+}
+}
+.transborder {
+	border: solid transparent; border-image: none;
+}
+* html .transborder {
+	border: solid rgb(0, 0, 1); border-image: none;
+}
+.ns-14 .mw-content-ltr > div[dir=ltr] {
+	clear: both;
+}
+.template-facttext {
+	margin: -0.3em 0px; padding: 0.3em 0px; background-color: rgb(234, 236, 240);
+}
+.sysop-show {
+	display: none;
+}
+.accountcreator-show {
+	display: none;
+}
+.mw-summary-preset {
+	margin: 0px; padding: 0px; display: inline;
+}
+.mw-summary-preset-item {
+	margin: 0.12em 0px; padding: 0px 0.5em; line-height: 1.25em; border-left-color: rgb(162, 169, 177); border-left-width: 1px; border-left-style: solid; display: inline-block;
+}
+:first-child.mw-summary-preset-item {
+	padding-left: 0.25em; border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+:last-child.mw-summary-preset-item {
+	padding-right: 0.25em;
+}
+#pagehistory li.not-patrolled {
+	background-color: rgb(255, 255, 170) !important;
+}
+.noteTA {
+	display: none;
+}
+div#footer ul li {
+	font-size: small;
+}
+small {
+	font-size: 0.85em;
+}
+big {
+	font-size: 1.14em;
+}
+body[class*=' page-Wikipedia_頁面存廢討論_'].ns-4.action-view h2 {
+	font-size: 132%; margin-bottom: 0.3em; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+body[class*=' page-Wikipedia_檔案存廢討論_'].ns-4.action-view h2 {
+	font-size: 132%; margin-bottom: 0.3em; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+body[class*=' page-Wikipedia_頁面存廢討論_'].ns-4.action-submit h2 {
+	font-size: 132%; margin-bottom: 0.3em; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+body[class*=' page-Wikipedia_檔案存廢討論_'].ns-4.action-submit h2 {
+	font-size: 132%; margin-bottom: 0.3em; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+body[class*=' page-Wikipedia_頁面存廢討論_'].ns-4.action-view h3 {
+	font-size: 116%; margin-bottom: 0.3em;
+}
+body[class*=' page-Wikipedia_檔案存廢討論_'].ns-4.action-view h3 {
+	font-size: 116%; margin-bottom: 0.3em;
+}
+body[class*=' page-Wikipedia_頁面存廢討論_'].ns-4.action-submit h3 {
+	font-size: 116%; margin-bottom: 0.3em;
+}
+body[class*=' page-Wikipedia_檔案存廢討論_'].ns-4.action-submit h3 {
+	font-size: 116%; margin-bottom: 0.3em;
+}
+.mw-changeslist-legend dd {
+	white-space: nowrap;
+}
+.portal-column-left {
+	width: 50%; float: left;
+}
+.portal-column-right {
+	width: 49%; float: right;
+}
+.portal-column-left-wide {
+	width: 60%; float: left;
+}
+.portal-column-right-narrow {
+	width: 39%; float: right;
+}
+.portal-column-left-extra-wide {
+	width: 70%; float: left;
+}
+.portal-column-right-extra-narrow {
+	width: 29%; float: right;
+}
+@media only screen and (max-width:800px)
+{
+.portal-column-left {
+	width: inherit; float: inherit;
+}
+.portal-column-right {
+	width: inherit; float: inherit;
+}
+.portal-column-left-wide {
+	width: inherit; float: inherit;
+}
+.portal-column-right-narrow {
+	width: inherit; float: inherit;
+}
+.portal-column-left-extra-wide {
+	width: inherit; float: inherit;
+}
+.portal-column-right-extra-narrow {
+	width: inherit; float: inherit;
+}
+}
+:lang(zh-Hans)#mw-content-text .zhwiki-lang-zh-hant {
+	display: none;
+}
+:lang(zh-CN)#mw-content-text .zhwiki-lang-zh-hant {
+	display: none;
+}
+:lang(zh-MY)#mw-content-text .zhwiki-lang-zh-hant {
+	display: none;
+}
+:lang(zh-SG)#mw-content-text .zhwiki-lang-zh-hant {
+	display: none;
+}
+:lang(zh-Hant)#mw-content-text .zhwiki-lang-zh-hans {
+	display: none;
+}
+:lang(zh-HK)#mw-content-text .zhwiki-lang-zh-hans {
+	display: none;
+}
+:lang(zh-MO)#mw-content-text .zhwiki-lang-zh-hans {
+	display: none;
+}
+:lang(zh-TW)#mw-content-text .zhwiki-lang-zh-hans {
+	display: none;
+}
+#interwiki-completelist {
+	font-weight: bold;
+}
+body.ns-4.page-Wikipedia_首页 #deleteconfirm {
+	display: none !important;
+}
+body.ns-4.page-Wikipedia_首页 #t-cite {
+	display: none !important;
+}
+body.ns-4.page-Wikipedia_首页 #footer-info-lastmod {
+	display: none !important;
+}
+body.ns-4.page-Wikipedia_首页 #siteSub {
+	display: none !important;
+}
+body.ns-4.page-Wikipedia_首页 #contentSub {
+	display: none !important;
+}
+body.ns-4.page-Wikipedia_首页 h1.firstHeading {
+	display: none !important;
+}
+body.ns-4.page-Wikipedia_首页 #jump-to-nav {
+	margin: 0px !important;
+}
+#mw-panel div.portal div.body ul li.GA {
+	background: url("//upload.wikimedia.org/wikipedia/commons/4/42/Monobook-bullet-ga.png") no-repeat; padding-left: 10px; margin-left: -10px;
+}
+#mw-panel div.portal div.body ul li.FA {
+	background: url("//upload.wikimedia.org/wikipedia/commons/d/d4/Monobook-bullet-star.png") no-repeat; padding-left: 10px; margin-left: -10px;
+}
+.badge-featuredarticle {
+	list-style-image: url("//upload.wikimedia.org/wikipedia/commons/d/d4/Monobook-bullet-star.png");
+}
+.badge-featuredlist {
+	list-style-image: url("//upload.wikimedia.org/wikipedia/commons/d/d4/Monobook-bullet-star.png");
+}
+.badge-goodarticle {
+	list-style-image: url("//upload.wikimedia.org/wikipedia/commons/4/42/Monobook-bullet-ga.png");
+}
+body.ns-0 #siteSub {
+	display: inline;
+}
+body.ns-1 #siteSub {
+	display: inline;
+}
+#siteNotice div {
+	margin: 0px;
+}
+#siteNotice div.expanded table.siteNoticeUser {
+	margin-bottom: 1em;
+}
+#coordinates {
+	margin: 0em; padding: 0em; top: 0em; text-align: right; right: 0em; text-transform: none; line-height: 1.5em; text-indent: 0px; font-size: 85%; float: right; white-space: nowrap; position: absolute;
+}
+#mp-2012-banner {
+	margin: 0px -1rem !important;
+}
+body.vector-animateLayout #mp-2012-banner {
+	transition:margin-left 250ms, margin-right 250ms; -webkit-transition: margin-left 250ms, margin-right 250ms; -moz-transition: margin-left 250ms, margin-right 250ms; -o-transition: margin-left 250ms, margin-right 250ms;
+}
+@media screen and (min-width:982px)
+{
+#mp-2012-banner {
+	margin: 0px -1.5rem !important;
+}
+}
+.selected-anniversary dl {
+	list-style-type: disc; list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAANAQMAAABb8jbLAAAABlBMVEX///8AUow5QSOjAAAAAXRSTlMAQObYZgAAABNJREFUCB1jYEABBQw/wLCAgQEAGpIDyT0IVcsAAAAASUVORK5CYII=");
+}
+@media print
+{
+html {
+	font-family: "Linux Libertine",Georgia,Times,serif;
+}
+body {
+	font-family: "Linux Libertine",Georgia,Times,serif;
+}
+.mw-body h1 {
+	font-family: sans-serif;
+}
+.mw-body h2 {
+	font-family: sans-serif;
+}
+.mw-body h3 {
+	font-family: sans-serif;
+}
+.mw-body h4 {
+	font-family: sans-serif;
+}
+.mw-body h5 {
+	font-family: sans-serif;
+}
+.mw-body h6 {
+	font-family: sans-serif;
+}
+.ns-0 .ambox {
+	display: none !important;
+}
+.ns-0 .navbox {
+	display: none !important;
+}
+.ns-0 .vertical-navbox {
+	display: none !important;
+}
+.ns-0 .infobox.sisterproject {
+	display: none !important;
+}
+.ns-0 .hatnote {
+	display: none !important;
+}
+.ns--1 .hatnote {
+	display: none !important;
+}
+.ns--1 .dablink {
+	display: none !important;
+}
+.ns-0 .dablink {
+	display: none !important;
+}
+.ns-0 .metadata {
+	display: none !important;
+}
+.ns-0 .mbox-small {
+	display: none !important;
+}
+.editlink {
+	display: none !important;
+}
+.navbar {
+	display: none !important;
+}
+a.NavToggle {
+	display: none !important;
+}
+span.collapseButton {
+	display: none !important;
+}
+span.mw-collapsible-toggle {
+	display: none !important;
+}
+.ns-0 .mw-indicators {
+	display: none !important;
+}
+.ns-0 .mw-cite-backlink {
+	display: none !important;
+}
+.ns-0 .stub {
+	display: none !important;
+}
+#filetoc {
+	display: none !important;
+}
+#footer-places {
+	display: none !important;
+}
+#privacy {
+	display: none !important;
+}
+#about {
+	display: none !important;
+}
+#disclaimer {
+	display: none !important;
+}
+#catlinks {
+	display: none !important;
+}
+span#coordinates {
+	display: none !important;
+}
+span.toctoggle {
+	display: none !important;
+}
+th .sortkey {
+	display: none !important;
+}
+td .sortkey .noprint {
+	display: none !important;
+}
+#content cite a.external.text::after {
+	display: none !important;
+}
+.nourlexpansion a.external.text::after {
+	display: none !important;
+}
+.nourlexpansion a.external.autonumber::after {
+	display: none !important;
+}
+table.collapsible tr {
+	display: block !important;
+}
+div.NavPic {
+	display: block !important;
+}
+div.NavContent {
+	display: block !important;
+}
+table.collapsible tr {
+	display: table-row !important;
+}
+.skin-simple div#column-one {
+	display: none;
+}
+.skin-simple div#f-poweredbyico {
+	display: none;
+}
+.skin-simple div#f-copyrightico {
+	display: none;
+}
+.skin-simple .editsection {
+	display: none;
+}
+.NavToggle {
+	display: none !important;
+}
+#firstHeading {
+	margin: 0px;
+}
+mark.template-facttext {
+	background-color: transparent;
+}
+#content a.external.text::after {
+	-ms-word-wrap: break-word;
+}
+#content a.external.autonumber::after {
+	-ms-word-wrap: break-word;
+}
+blockquote {
+	page-break-inside: avoid;
+}
+table {
+	page-break-inside: avoid;
+}
+pre {
+	page-break-inside: avoid;
+}
+.toc {
+	page-break-inside: avoid;
+}
+.toc {
+	box-decoration-break: clone;
+}
+.infobox {
+	border: 1px solid rgb(170, 170, 170); border-image: none; width: 180pt !important; border-collapse: collapse; border-spacing: 0; background-color: rgb(255, 255, 255);
+}
+.infobox > * > tr > td {
+	padding: 2px 5px; border-bottom-color: rgb(234, 236, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.infobox > * > tr > th {
+	padding: 2px 5px; border-bottom-color: rgb(234, 236, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.infobox a {
+	border: 0px currentColor; border-image: none;
+}
+.infobox > * > tr:last-child > th {
+	border: 0px currentColor; border-image: none;
+}
+.infobox > * > tr:last-child > td {
+	border: 0px currentColor; border-image: none;
+}
+.refbegin a {
+	color: black !important;
+}
+.references a {
+	color: black !important;
+}
+.reference a {
+	color: black !important;
+}
+.printfooter {
+	clear: both;
+}
+}
