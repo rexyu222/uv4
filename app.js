@@ -9,6 +9,19 @@ app.get('/', (req, res) => {
     res.send("rex homepage 3");
 });
 
+//debug begin
+const fs = require("fs");
+console.log('rex post2: fs begin ');
+
+  // var commentInfo= '\r\n' + req.body.message + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
+  var commentInfo= '\r\n'  + '\r\n'  + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"})+'\r\n' + 'rex2commentusroute';
+  fs.appendFileSync('customerComment.txt', commentInfo, function(err){
+    if (err) throw err;
+    console.log('Saved');
+  });
+  console.log('rex post2: fs end ');
+//debug end  
+
 //set commentUs routes
 app.use('/urlLogsave', require('./urlLogRoutes/urlLogRoute'));
 
