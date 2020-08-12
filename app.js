@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+const cors= require('cors');
+app.use(cors());
+
 app.use(express.static(path.join(__dirname, 'archivesEng')));
 app.use(express.static(path.join(__dirname, 'archivesMand')));
 app.use(express.static(path.join(__dirname, 'image')));
@@ -10,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 //debug begin
-const fs = require("fs");
+/**const fs = require("fs");
 console.log('rex post2: fs begin ');
 
   // var commentInfo= '\r\n' + req.body.message + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
@@ -19,7 +22,7 @@ console.log('rex post2: fs begin ');
     if (err) throw err;
     console.log('Saved');
   });
-  console.log('rex post2: fs end ');
+  console.log('rex post2: fs end ');**/
 //debug end  
 
 //set commentUs routes
