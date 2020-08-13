@@ -30,7 +30,7 @@ app.use('/urlLogsave', require('./urlLogRoutes/urlLogRoute'));
 
 //set commentUs routes
 app.use('/commentussave', require('./commentUsRoutes/commentUsRoute'));
-
+console.log("API running on localhost nodejs");
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {console.log("API running on localhost");});
