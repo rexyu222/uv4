@@ -42,8 +42,6 @@ app.post('/commentussave', function(req, res)  {
     if (err) throw err;
     console.log('Saved');
   });
-  res.status(200).send(req.body);
-});
 
  // res.sendStatus(200);
   //res.send(200,  req.body);
