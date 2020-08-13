@@ -12,7 +12,11 @@ app.get('/', (req, res) => {
     res.send("rex homepage 3");
 });
 
+
+
 //debug begin
+const bodyParser= require('body-parser');
+const jsonParser= bodyParser.json();
 /**const fs = require("fs");
 console.log('rex post2: fs begin ');
 
@@ -31,7 +35,7 @@ app.use('/urlLogsave', require('./urlLogRoutes/urlLogRoute'));
 //set commentUs routes
 //app.use('/commentussave', require('./commentUsRoutes/commentUsRoute'));
 var fs = require("fs");
-app.post('/commentussave', function(req, res)  {
+app.post('/commentussave', jsonParser, function(req, res)  {
   
   console.log('rex post2: rex null');
   console.log('rex post2: '+ JSON.stringify(req.body));
