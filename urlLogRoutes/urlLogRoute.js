@@ -17,7 +17,8 @@ router.route('/').post( (req, res) => {
   //console.log('rex post2 urlLog: '+ req.body);
   // var commentInfo= '\r\n' + req.body.message + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
  // var commentInfo= '\r\n'  + '\r\n'  + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"})+'\r\n' + JSON.stringify(req.body);
-  fs.appendFileSync('urlLog.txt', ('\r\n'  +JSON.stringify(req.body.urlLog)), function(err){
+ // fs.appendFileSync('urlLog.txt', ('\r\n'  +JSON.stringify(req.body.urlLog)), function(err){
+  fs.appendFileSync('urlLog.txt', ('\r\n'  +JSON.stringify(req.body)), function(err){
     if (err) throw err;
     console.log('Saved');
   });
