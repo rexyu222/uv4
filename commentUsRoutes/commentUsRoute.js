@@ -12,7 +12,7 @@ var fs = require("fs");
   //res.send('rexapi works');
 //});
 router.route('/').post( (req, res) => {
-
+  console.log('rex post2: rex null');
   console.log('rex post2: '+ JSON.stringify(req.body));
 
   // var commentInfo= '\r\n' + req.body.message + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
