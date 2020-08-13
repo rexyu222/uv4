@@ -30,6 +30,7 @@ app.use('/urlLogsave', require('./urlLogRoutes/urlLogRoute'));
 
 //set commentUs routes
 //app.use('/commentussave', require('./commentUsRoutes/commentUsRoute'));
+var fs = require("fs");
 app.post('/commentussave', function(req, res)  {
   
   console.log('rex post2: rex null');
@@ -41,6 +42,7 @@ app.post('/commentussave', function(req, res)  {
     if (err) throw err;
     console.log('Saved');
   });
+});
 
  // res.sendStatus(200);
   //res.send(200,  req.body);
