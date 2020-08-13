@@ -12,6 +12,7 @@ var fs = require("fs");
   //res.send('rexapi works');
 //});
 router.route('/').post( (req, res) => {
+  console.err('rex post2: rex err null');
   console.log('rex post2: rex null');
   console.log('rex post2: '+ JSON.stringify(req.body));
 
