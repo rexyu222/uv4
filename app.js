@@ -42,7 +42,7 @@ app.post('/commentussave', jsonParser, function(req, res)  {
 
   // var commentInfo= '\r\n' + req.body.message + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
  // var commentInfo= '\r\n'  + '\r\n'  + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"})+'\r\n' + JSON.stringify(req.body);
-  var commentInfo= '\r\n'  + '\r\n'  + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"})+'\r\n' + req.body;
+  var commentInfo= '\r\n'  + '\r\n'  + '   SaveTime: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"})+'\r\n' + JSON.stringify(req.body);
   fs.appendFileSync('customerComment.txt', commentInfo, function(err){
     if (err) throw err;
     console.log('Saved');
