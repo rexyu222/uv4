@@ -5,8 +5,8 @@ const path = require('path');
 const cors= require('cors');
 app.use(cors());
 
-app.use(express.static(path.join(__dirname, 'archivesEng')));
-app.use(express.static(path.join(__dirname, 'archivesMand')));
+//app.use(express.static(path.join(__dirname, 'archivesEng')));
+//app.use(express.static(path.join(__dirname, 'archivesMand')));
 app.use(express.static(path.join(__dirname, 'image')));
 app.get('/', (req, res) => {
     res.send("rex homepage 3");
